@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #msg{
+        width: 100px;
+        height: 100px;      
+      }
+
+      .active{
+        background-color: pink;
+      }
+    </style>
+</head>
+<body>
+
+    <div id="msg" class="active">
+        <h1>Hello</h1>    
+    </div>
+
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>User Id</td>
+          <td>Id</td>
+          <td>Title</td>
+          <td>Status</td>
+        </tr>
+      </thead>
+
+      <tbody>
+
+      </tbody>
+    </table>
+
+
+    
+    <button>btn</button>
+ 
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <script>
+    $(function(){
+      $('button').click(function(){
+        $.ajax({
+          url:"https://jsonplaceholder.typicode.com/todos",
+          data:{},
+          method:"GET",
+          success:function(res){
+            let trs = res.map(function(todo){
+              return `
+              <tr>
+                <td>${todo.userId}</td>
+                <td>${todo.id}</td>
+                <td>${todo.title}</td>
+                <td>${todo.completed}</td>
+              </tr>
+              `
+            })
+            trs = trs.join("")
+
+            $("tbody").html(trs)
+
+          }   
+          
+      
+          
+        })
+
+      
+
+       
+      })
+    })
+  </script>
+
+
+
+  <script>
+    // let time = 500
+
+    // function generateStringOtp(numberOfChar){
+    //   let str = "0123456789abcdef" 
+    //   let otpStr = ""    
+    //   for(var i = 0; i<numberOfChar; i++){
+    //         let randomNumber = Math.round(Math.random()*200000)
+    //         let randomIndex = randomNumber%str.length
+    //         otpStr += str[randomIndex]
+    //     }
+    //     return otpStr
+    // }
+
+    
+
+
+    // setInterval(function(){      
+    //   $('body').css({'background':"#"+generateStringOtp(6)})      
+    // }, time)
+
+
+  //     $("button").keyup(function(){
+  //         // let heading = `
+  //         //   <h1>You Have Clicked On Button</h1>
+  //         // `
+
+
+  //         $('#msg').animate({"height":"+=100px", "width":"+=100px"}, 2000)
+
+
+  //         hasClass()
+  //         addClass()
+  //         removeClass()
+          
+  //       // console.log($("#msg").text())
+  //       // console.log($("#msg").html())
+
+  //       //$('#msg').text(heading)
+  //       //$('#msg').html(heading)
+
+  //       //$('#msg').css({'font-size':'+=3px'})
+
+          
+
+  //     })
+
+  // </script>
+
+</body>
+</html>
+
+<!-- change document 
+            structural
+            text
+change style
+            single style
+            class change
+
+control events -->

@@ -1,0 +1,37 @@
+one dimensional layout model
+    > row 
+    > column
+
+flex > flexible model
+
+    item > amongs > space distribution
+    item > alignment
+
+
+
+parent > flex-container
+child > flex items
+
+axis >
+    main axis
+    cross axis
+
+
+
+flex-container properties : 
+    display
+    flex-direction
+    flex-wrap
+    flex-flow
+    justify-content
+    align-items
+    align-content  >> after childer properties
+
+flex-items properties:
+    order
+    flex-grow
+    flex-shrink
+    flex-basis
+    align-self
+ 
+

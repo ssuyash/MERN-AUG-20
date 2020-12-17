@@ -1,0 +1,29 @@
+headings
+normal text (paragraph)
+images
+links
+forms
+lists
+audio 
+video
+
+
+======================
+heading : 
+    h1 - h6
+paragraph  :
+    p
+
+paragraph  formatting:
+    strong
+    em
+    u
+    br
+    hr
+    sub
+    sup
+    pre
+    html entities
+
+
+    8878071281

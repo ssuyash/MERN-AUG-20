@@ -1,0 +1,41 @@
+css => 
+ cascading style sheet
+ 
+ places => 3
+    inline => within tag=> using style attribute //never use => create problems in SEO
+    internal => within head > inside style tag > using selectors // rarly use => repeat code
+    external => link external css file inside head using link tag //always
+
+ way => 1
+    prop1:value1, prop2:value2, prop3:value;
+
+
+
+css selectors :
+    basic :
+        tag name > tag
+        id > #id 
+            uniq Ids across the document
+        class > .class
+
+
+css properties and values
+
+1) color
+    > color name
+    > hex code   #0000ff
+    > rgb   rgb(0-225, 0-255, 0-255)
+    > rgba rgba(0-225, 0-255, 0-255, 0-1)
+
+
+2) font-size
+    > px 
+    > em
+        : em = default pixel (16px)
+
+3) text-alignment
+    > left
+    > right
+    > center
+
+4) text-decoration

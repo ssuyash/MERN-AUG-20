@@ -1,0 +1,155 @@
+1 > unary
+    ++
+    --
+    !
+
+2 > binary
+    10+20
+
+3 > ternary
+    () ? (true) : (false)
+
+
+  =======================================
+
+
+
+
+
+Store
+Operations
+  > Operators
+
+
++++++++++++++++++++++++++++Variables+++++++++++++++++++++++++++
+var variablName
+
+Rules for variable name
+1) We can not use keywords as variables name
+2) We can not use any special character except $ and _ 
+3) We can not use space
+4) We can Use numbers but can not use in start
+    num1 =>> valid 
+    1num =>> invalid
+
+
+===========================================================
+5) variable name should be self explainatory
+6) variable name should follow camelcase (numberOfStudents)
+
+
+
+
++++++++++++++++++++++++++++ Data Types +++++++++++++++++++++++++++
+
+
+1) Number 
+2) String
+3) boolean
+4) Array (GROUP OF DATA)
+5) Object => key - value
+6) undefined
+7) null
+
+
+
++++++++++++++++++++++++++++++++++ Operators +++++++++++++++++++++++++++
+
+
+0) Assignment Operator (=)
+    assigns right side to left side 
+    +=
+    -=
+    /=
+    *=
+    %=
+
+
+1) Arithmatic Operators (Number)
+    Addition       (+)  => concat (if any of the given operand is non number)
+    Subtraction (-)
+    Multiplication (*)
+    Division (/)
+    Modulus    (%)
+
+2) Increment Operator (++)  (Number)
+    Decrement Operator (--)
+        Pre - Post
+
+3) Comparison Operators (Boolean)
+    Greater than (>)
+    Less than (<)
+    Equal to (==)
+    Greater or Equal (>=)
+    Less or Equal (<=)
+    Strict Equality (===)
+    Not Equal to  (!=)
+    Strict Not Equal to  (!==)
+    
+
+
+4) Logical Operators (Boolean)
+    AND (&&)
+    OR (||)
+    NOT (!)
+
+    AND 
+      -> Gives true only when all conditions are true otherwise gives false
+
+    OR
+      -> Gives false only when all conditions are false otherwise gives true
+
+    NOT 
+      -> negation
+
+
+5) Conditional Operator (Ternery Operator)
+  (conditions) ? (true) : (false)
+
+
+
+==================================== Control Statements ==============================
+
+1) If 
+  condition ==> true/false
+
+  if(condition){
+    //this code runs only if condition is true
+    //if block code
+  }
+
+
+2) If-else
+
+  if(condition){
+    //if block code
+  }else{
+    //else block code
+  }
+
+
+3) if - else -if
+  
+  if(condition){
+    
+  }else if(condition){
+
+  }
+
+
+4) switch case
+  (break default)
+
+
+
+================================= Loop ==============================================
+
+for 
+while 
+do while
+
+=====================================================================================
+
+
+
+parsing => type conversion

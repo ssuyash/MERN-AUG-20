@@ -1,0 +1,23 @@
+1) create a brand new react project
+2) create 4 components
+
+
+0) AddComponent
+	props => a , b
+	render => sum of props
+
+
+i) GreetComponent
+	props => person, time(morning, afternoon, evening, night)
+
+
+ii) GreetComponentWithoutTime
+	props => person
+
+
+iii) Product
+	productDetails => {title:"", brand:"", img:"", price:""}
+
+
+
+Show This Components on App.js

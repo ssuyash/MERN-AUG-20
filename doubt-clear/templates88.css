@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.footer-block{
+    width:20%;
+    float: left;
+    margin-left:50px;
+}
+
+
+.footer-block ul{
+    list-style-type:none;
+}
+
+.footer-block ul li{
+    padding:5px 0px;    
+    border-bottom:1px solid black;
+}
+
+.clear-fix{
+    clear: both;
+}

@@ -1,0 +1,14 @@
+relative => godparticles.jpg 
+absolute => F:\classes\mern-aug-20\html\godparticle.jpg (urls)
+
+
+
+current path .
+parent path ..
+enter /
+
+
+
+lists : 
+ordered 
+unordered list

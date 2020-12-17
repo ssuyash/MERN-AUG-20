@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;    
+}
+
+.header{
+    height: 60px;
+    background:red;
+}
+.body-part{
+	height: 550px;
+
+}
+
+.left-body{
+	background: yellow;
+	width: 20%;
+	float: left;
+}
+
+.main-body{
+	background: pink;
+	width: 60%;
+	float: left;
+}
+.right-body{
+	background: blue;
+	width: 20%;
+	float:left;
+}
+
+.footer{
+	height: 30px;
+	background: green;
+}
+
+
+.clear-float{
+	clear:both;
+}
